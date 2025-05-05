@@ -1,0 +1,362 @@
+
+#userType{
+    min-height: 100vh;
+    background-color: #f1f1f1f1;
+    display: flex;
+    color: #4a4a4a;
+}
+
+#userType .left{
+    width: 40%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#userType .right{
+    width: 60%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+}
+
+#userType .left img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+#userType .left h2{
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#userType .left p{
+    margin-top: 10px;
+    font-weight: 400;
+    text-align: center;
+    width: 60%;
+}
+
+.userTypeButton{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    background-color: #2D9B74;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    transition: 0.5s ease-in-out;
+    outline: none;
+}
+
+.userTypeButton:hover{
+    background-color: #1e6c51;
+}
+
+.loginSection{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginSection h1{
+    color: #1D3557;
+    font-size: 40px;
+}
+
+.loginSection p{
+    width: 500px;
+}
+
+.cinput{
+    display: flex;
+    width: 97%;
+    height: 50px;
+    background-color: #DADADA;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.cinput input{
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.submitBtn{
+    height: 50px;
+    width: 100%;
+    background-color: #2D9B74;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    transition: 0.5s ease-in-out;
+    outline: none;
+}
+
+.submitBtn:hover{
+    background-color: #1e6c51;
+}
+
+.fieldIcon{
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.rlink{
+    cursor: pointer;
+    color: #2D9B74;
+    font-weight: 600;
+}
+
+.cupload{
+    text-align: left;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #DADADA;
+    width: 100%;
+}
+
+.cupload h3{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#proof{
+    display: none;
+}
+
+.uploadicon{
+    font-size: 20px;
+}
+
+#dashboard{
+    min-height: 100vh;
+    background-color: #f1f1f1f1;
+}
+
+#navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1D3557;
+}
+
+#navbar h1{
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+}
+
+.nav-cont{
+    padding-right: 20px;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+
+.profile-banner{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #2D9B74;
+}
+
+.dashboard-cont{
+    color: #4a4a4a;
+    min-height: calc(100vh - 70px);
+    display: flex;
+}
+
+.dashboard-cont .left{
+    width: 50%;
+    padding: 20px;
+    max-height: calc(100vh - 110px);
+    overflow: auto;
+}
+
+.js-sb{
+    justify-content: space-between;
+}
+
+.dashboard-cont .left h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.dashboard-cont .right{
+    width: 50%;
+    background-color: #2d9b755c;
+}
+
+.js-c{
+    justify-content: center;
+}
+
+.ai-c{
+    text-align: center;
+}
+
+.fl-c{
+    display: flex;
+    flex-direction: column;
+}
+
+.newcertlink{
+    font-weight: 600;
+    color: #2D9B74;
+    font-size: 17px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+.certcard{
+    padding: 10px 20px;
+    background-color: #2d9b755c;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.certcard .cardl h4{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 4px;
+}
+
+.certcard .cardr{
+    display: flex;
+    gap: 0.5em;
+}
+
+.cert-icons{
+    font-size: 28px;
+}
+
+.selectedCertSection{
+    padding:20px;
+}
+
+.dashboard-cont .right h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.selectedCertSection p{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.selectedCertSection span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.newCertSection{
+    padding: 20px
+}
+
+.newCertSection input[type='text']{
+    width: 97%;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #4a4a4a;
+    border-radius: 10px;
+    padding: 0 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.uploadCont{
+    height: 50px;
+    width: 97%;
+    border: 2px solid #4a4a4a;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.ver-cent{
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.profile-banner .popup{
+    position: absolute;
+    min-width: 200px;
+    top: 30px;
+    right: 0;
+    border-radius: 5px;
+    box-shadow:  0px 0px 10px 0px #4a4a4a;
+    padding: 10px;
+    background-color: white;
+}
+
+.profile-banner .popup p{
+    color: #212121;
+    cursor: pointer;
+}
+
+.profile-banner .popup hr{
+    margin-bottom: 10px;
+}
+
+.admin-btn{
+    transition: 0.2s ease-in-out;
+}
+
+
+.admin-btn-l{
+    transition: 0.2s ease-in-out;
+}
+
+.admin-btn:hover{
+    background-color: #fff !important;
+    color: #2D9B74 !important;
+}
+
+.admin-btn-l:hover{
+    background-color: #fff !important;
+    color: #a0070a !important;
+}
